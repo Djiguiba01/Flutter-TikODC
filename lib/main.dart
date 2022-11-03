@@ -59,7 +59,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
           ),
           const BottomNavigationBarItem(
             icon: Icon(Icons.flash_on),
-            label: 'Now',
+            label: 'Recherche',
           ),
           BottomNavigationBarItem(
             icon: Image.asset(
@@ -180,7 +180,7 @@ class PostContent extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: const [
               Text(
-                'Suivis',
+                'Abonnements',
                 style: TextStyle(
                   color: Colors.white54,
                   fontWeight: FontWeight.w600,
@@ -208,7 +208,7 @@ class PostContent extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       const Text(
-                        '@Jeansagara_95',
+                        '@Djiguiba01',
                         style: TextStyle(
                           color: Colors.white,
                           fontWeight: FontWeight.w600,
@@ -216,7 +216,7 @@ class PostContent extends StatelessWidget {
                       ),
                       const SizedBox(height: 10),
                       const Text(
-                        'Goein full send in Squaw Valley. #snow @snowboarding #extremesports',
+                        'Bamako #Mali #Bandiagara #Mon_Pays',
                         style: TextStyle(
                           color: Colors.white,
                         ),
@@ -231,7 +231,7 @@ class PostContent extends StatelessWidget {
                           ),
                           SizedBox(width: 5),
                           Text(
-                            'Original Sound - NINHO - Lettre a une femme',
+                            'Original Sound - Petit_Goro - Erou Nana',
                             style: TextStyle(
                               color: Colors.white,
                             ),
@@ -257,7 +257,8 @@ class PostContent extends StatelessWidget {
                             margin: const EdgeInsets.only(bottom: 10),
                             child: const CircleAvatar(
                               radius: 25,
-                              backgroundImage: AssetImage('assets/images/djiguiba.jpg'),
+                              backgroundImage:
+                                  AssetImage('assets/images/djiguiba.jpg'),
                             ),
                           ),
                           Container(
@@ -282,11 +283,11 @@ class PostContent extends StatelessWidget {
                         children: [
                           Icon(
                             Icons.favorite,
-                            color: Colors.white.withOpacity(0.85),
+                            color: Colors.red.withOpacity(0.85),
                             size: 45,
                           ),
                           const Text(
-                            '25.0K',
+                            '10.0K',
                             style: TextStyle(
                               color: Colors.white,
                               fontSize: 12,
@@ -306,7 +307,7 @@ class PostContent extends StatelessWidget {
                             size: 45,
                           ),
                           const Text(
-                            '156',
+                            '400',
                             style: TextStyle(
                               color: Colors.white,
                               fontSize: 12,
@@ -326,7 +327,7 @@ class PostContent extends StatelessWidget {
                             size: 45,
                           ),
                           const Text(
-                            '123',
+                            '90',
                             style: TextStyle(
                               color: Colors.white,
                               fontSize: 12,

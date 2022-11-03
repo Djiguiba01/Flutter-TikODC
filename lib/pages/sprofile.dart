@@ -10,7 +10,7 @@ class UserProfilePage extends StatelessWidget {
       length: 3,
       child: Scaffold(
         appBar: AppBar(
-          title: Text('Jean ZACHARIE', style: TextStyle(color: Colors.black)),
+          title: Text('Djiguiba Barema', style: TextStyle(color: Colors.black)),
           backgroundColor: Colors.transparent,
           elevation: 0,
           leading: Icon(Icons.person_add, color: Colors.black),
@@ -31,7 +31,7 @@ class UserProfilePage extends StatelessWidget {
             Container(
               child: const CircleAvatar(
                 radius: 25,
-                backgroundImage: AssetImage('assets/images/flu1.png'),
+                backgroundImage: AssetImage('assets/images/djiguiba.jpg'),
               ),
               height: 120,
               width: 120,
@@ -45,7 +45,7 @@ class UserProfilePage extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.all(20.0),
               child: Text(
-                'sagara272@gmail.com',
+                'djiguibabarema@gmail.com',
                 style: TextStyle(color: Colors.black, fontSize: 20),
               ),
             ),
@@ -60,7 +60,7 @@ class UserProfilePage extends StatelessWidget {
                     child: Column(
                       children: [
                         Text(
-                          '37',
+                          '10',
                           style: TextStyle(
                               color: Colors.black,
                               fontWeight: FontWeight.bold,
@@ -70,7 +70,7 @@ class UserProfilePage extends StatelessWidget {
                           height: 5,
                         ),
                         Text(
-                          'Following',
+                          'Abonnés',
                           style: TextStyle(color: Colors.grey, fontSize: 15),
                         ),
                       ],
@@ -82,7 +82,7 @@ class UserProfilePage extends StatelessWidget {
                     child: Column(
                       children: [
                         Text(
-                          '8',
+                          '20',
                           style: TextStyle(
                               color: Colors.black,
                               fontWeight: FontWeight.bold,
@@ -92,7 +92,7 @@ class UserProfilePage extends StatelessWidget {
                           height: 5,
                         ),
                         Text(
-                          'Followers',
+                          'Abonnements',
                           style: TextStyle(color: Colors.grey, fontSize: 15),
                         ),
                       ],
@@ -105,7 +105,7 @@ class UserProfilePage extends StatelessWidget {
                     child: Column(
                       children: [
                         Text(
-                          '56',
+                          '26',
                           style: TextStyle(
                               color: Colors.black,
                               fontWeight: FontWeight.bold,
@@ -115,7 +115,7 @@ class UserProfilePage extends StatelessWidget {
                           height: 5,
                         ),
                         Text(
-                          '  Likes  ',
+                          'Likes',
                           style: TextStyle(color: Colors.grey, fontSize: 15),
                         ),
                       ],
@@ -133,7 +133,7 @@ class UserProfilePage extends StatelessWidget {
               children: [
                 Container(
                   padding: EdgeInsets.symmetric(vertical: 15, horizontal: 40),
-                  child: Text('Edit profile',
+                  child: Text('Modifier profile',
                       style: TextStyle(color: Colors.black, fontSize: 20)),
                   decoration: BoxDecoration(
                       border: Border.all(color: Colors.grey.shade300),
@@ -168,7 +168,7 @@ class UserProfilePage extends StatelessWidget {
 
             // bio
             Text(
-              'bio here',
+              'Contenues',
               style: TextStyle(color: Colors.grey[700]),
             ),
 
