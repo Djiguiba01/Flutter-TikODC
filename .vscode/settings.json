@@ -1,0 +1,6 @@
+{
+    "emulator.emulatorPathWindows": "C:\\Users\\lenovo\\AppData\\Local\\Android\\sdk\\emulator",
+    "emulator.simulatorPath": "C:\\Users\\lenovo\\AppData\\Local\\Android\\sdk\\emulator",
+    "emulator.emulatorPath": "C:\\Users\\lenovo\\AppData\\Local\\Android\\sdk\\emulator",
+    "emulator.androidColdBoot": true
+}
