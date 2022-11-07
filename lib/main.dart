@@ -41,9 +41,9 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
 
   final List<Widget> _pages = [
     HomePage(),
-    UserInboxPage(),
-    UserPlusPage(),
     UserSearchPage(),
+    UserPlusPage(),
+    UserInboxPage(),
     UserProfilePage(),
   ];
 
